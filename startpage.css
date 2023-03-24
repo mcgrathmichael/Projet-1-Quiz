@@ -121,6 +121,7 @@ body {
     display: flex;
     align-items: center;
     box-shadow: 1px 1px 30px 5px #0ff;
+    padding: 5vh;
   }
   .rectangle7 {
     width: 525px;
@@ -197,6 +198,30 @@ body {
     border-radius: 15px;
     cursor: url("cursor.cur"), auto;
   }
+
+
+  #footer{
+    background-color: #B892FF;
+    opacity: 0.80;
+    color: #20237B;
+    position:fixed;
+    bottom:0;
+    font-family: 'Axial cut', sans-serif;
+    font-size: medium;
+    border-radius: 15px;
+    padding: 0px;
+    padding-top:0px;
+    margin: 0px;
+    width:100%;
+    text-align:center;
+}
+#footer p{
+  padding:0;
+  margin:0;
+  font-weight: bold;
+}
+
+
   @media screen and (max-width: 812px) {
     body,
     div {

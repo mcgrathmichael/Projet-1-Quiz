@@ -30,8 +30,8 @@ data = [
   {
     question: "What's Responsive Design?",
     a: "A fast loading Website",
-    b: "A set of tools used to create layouts compatible with all devices",
-    c: "A technology allowing you to create beautiful designs for your Websites",
+    b: "Tools used to create layouts compatible with all devices",
+    c: "Technology allowing you to create beautiful design",
     d: "A set of tools to make interactivity in our code",
     correct: "b",
   },
@@ -40,7 +40,7 @@ data = [
     a: "Creating the Desktop version before the Mobile version",
     b: "Create a Website that only works on mobile",
     c: "Create the Mobile version before the Desktop Version",
-    d: "Modify certain CSS rulues depending on the device",
+    d: "Modify certain CSS rules depending on the device",
     correct: "c",
   },
   {

@@ -172,6 +172,9 @@
         cursor: url("cursor.cur"), auto;
     }
     
+    label:focus-within {
+        color: var(--form-control-color);
+      }
 
     input {
         display: none;
@@ -307,9 +310,61 @@
     }
 
 
+    input[type="checkbox"],
+    input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    
+    }
+    label {
+    position: relative;
+    margin-right: 1em;
+    padding-left: 2em;
+    padding-right: 1em;
+    line-height: 2;
+    cursor: url("cursor.cur"), auto;
+    }
 
+    input[type="radio"] + label::before {
+    border-radius: 1em;
+    }
+
+    /* Checked */
+    input[type="checkbox"]:checked + label,
+    input[type="radio"]:checked + label {
+    padding-left: 1em;
+    }
     
 
+    /* Transition */
+    label,
+    label::before {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    }
+    
+    #footer{
+        background-color: #B892FF;
+        opacity: 0.80;
+        color: #20237B;
+        position:fixed;
+        bottom:0;
+        font-family: 'Axial cut', sans-serif;
+        font-size: medium;
+        border-radius: 15px;
+        padding: 0px;
+        padding-top:0px;
+        margin: 0px;
+        width:100%;
+        text-align:center;
+    }
+    #footer p{
+      padding:0;
+      margin:0;
+      font-weight: bold;
+    }
     
                                             /* Slide score */
     
